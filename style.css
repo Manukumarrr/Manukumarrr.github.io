@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #38bdf8;
+}
+
+.summary {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #cbd5f5;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    background: #38bdf8;
+    color: #020617;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.btn-outline {
+    border: 2px solid #38bdf8;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.section {
+    padding: 70px 15%;
+}
+
+.section.light {
+    background-color: #020617;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.skills-grid ul,
+.cert-list {
+    list-style: none;
+}
+
+.project-card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: #020617;
+}
